@@ -72,7 +72,9 @@ export const GlobalProvider = ({children}) =>{
     }
     console.log('total', totalExpenses());
 
-   
+    const totalBalance = () =>{
+        return totalIncome() -totalExpenses()
+    }
     const transaction = () => {
         const history =[...Incomes, ...Expenses]
         history.sort((a,b)=>{
