@@ -75,14 +75,7 @@ export const GlobalProvider = ({children}) =>{
     const totalBalance = () =>{
         return totalIncome() -totalExpenses()
     }
-    const transaction = () => {
-        const history =[...Incomes, ...Expenses]
-        history.sort((a,b)=>{
-            return new Date(b.createdAt) - new Date(a.createdAt)
-        })
-        return history
-    }
-   
+
   
 
     return (
