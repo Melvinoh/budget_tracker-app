@@ -166,13 +166,14 @@ input::placeholder,textarea::placeholder,select::placeholder{
     border: 2px solid #ffffff;
     box-shadow: var(--box-shadow);
     border-radius: 20px;
-    padding: 1rem;
+    padding: 0.6rem;
     margin-bottom: 1rem;
     display: flex;
     align-items: center;
     gap: 1rem;
     width: 100%;
     color: #222260;
+
 }
 .icon{
     width: 80px;
@@ -243,13 +244,13 @@ input::placeholder,textarea::placeholder,select::placeholder{
     border: 2px solid #ffffff;
     box-shadow: 0px 1px 15px rgba(0, 0,0, 0.06);
     border-radius: 20px;
-    padding: 1rem;
-    margin: 1rem 0;
+    padding: 0.7rem;
+    margin: 0.5rem 0;
     font-size: 2rem;
     gap: 0.5rem;
 }
 .total-income span{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 800;
     color: rgb(69, 195, 65);
 }
@@ -265,6 +266,7 @@ input::placeholder,textarea::placeholder,select::placeholder{
     padding:1rem;
     border-radius:20px;
     height: 100%;
+    height: 350px;
 }
 /* transactions page components */
 .transactions{
@@ -281,6 +283,33 @@ input::placeholder,textarea::placeholder,select::placeholder{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 0.5rem;
+    margin: 0.6rem;
+    width: 100%;
+}
+.amount-con{
+    display: flex;
+    flex: 1 1 auto;
+    gap: 0.5rem;
+    margin: 0.9rem;
+   
+}
+.amount-con .totals{
+    background-color: #fcf6f9;
+    border: solid #ffffff 2px;
+    margin: 0.2rem;
+    padding: 1rem;
+    text-transform: capitalize;
+    border-radius: 0.6rem;
+}
+.stats-con{
+ display: flex;
+ gap: 0.9rem;
+}
+.stats-con .chatrt-con{
+    grid-column: 1 / 4;
+
+
 }
 
 

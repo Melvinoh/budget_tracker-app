@@ -5,7 +5,6 @@ import { useState } from 'react'
 import Dashboard from './components/Dashboard'
 import Income from './components/Income'
 import Expenses from './components/Expenses'
-import Transactions from './components/Transactions'
 import { useGlobalContext } from './context/globalContext'
 
 function App( ) {
