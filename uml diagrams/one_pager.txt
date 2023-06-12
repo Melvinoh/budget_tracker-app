@@ -1,0 +1,19 @@
+Project Name : Budjet tracker 
+
+Description:
+This is an income tracking mobile application that allows users to enter their income sources, such as salaries, bonuses, and investment income. Users can set up recurring income sources and the app will automatically update the income balance.It has four main pages that is the expense tracking page, budgeting page, reporting page and a profile page.
+
+The expense tracking feature allows users to categorize their expenses, such as groceries, rent, and entertainment which is later  subtracted from the income.
+
+The budgeting feature allows users to set a budget for each expense category and track their progress towards the budget. The app will alert users if they are exceeding their budget for a specific category.
+
+The reporting feature allows users to generate reports and visualize their financial data. Users can view their income and expenses by category, see their spending patterns over time, and track their progress towards financial goals.
+
+This app is a powerful tool for users who want to manage their finances more effectively, track their spending habits, and achieve their financial goals.
+
+sample problem :
+Mr melvin is a collage student with a part-time job and is strugling to make ends meet. He has rent, groceries, transportation and other expences to cover, but he is not sure where all the money is going.He has tried to keep track of his spending in a spreadsheet but its time consuming and often forget to update it. As a result he is consatantly stressed about money and worried about going into debt.
+
+soliution :
+By using the budget tracker app Mr melvin can track his income and expenses and get a clear picture of where his money is going and identify the areas where he can cut back.For example he may realize he is spending too much on eating or entertainment, and he can make adjustment to his budget accordingly. he can also set alerts to notify him when his getting closer to his budget limit for a specific category. 
+
