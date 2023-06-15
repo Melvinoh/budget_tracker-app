@@ -1,0 +1,45 @@
+:root{
+  --color-heading: rgb(4, 51, 169);
+  --colorheading2:green;
+  --links-color: rgba(128, 128, 128, 0.788);
+  --icons-color: rgb(4, 88, 233);
+  --income-font:rgb(0, 255, 94);
+  --expence-font:red;
+  --box-shadow: 0 1px 15px rba(0,0,0,0.06);
+  --color1: rgba(34, 34, 96, 1);
+  --color2: rgba(34, 34, 96, 0.4);
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+.app-container{
+  height: 100vh;
+  position: relative;
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+}
+.main{
+  flex: 1;
+  background-color: rgba(252, 246, 249, 0.574);
+  border: 3px solid #ffffffa3;
+  backdrop-filter: blur(4.5px);
+  border-radius: 32px;
+  overflow: auto;
+  overflow-x: hidden;
+  height: 90vh;
+}
+.main::-webkit-scrollbar{
+  width: 0;
+}
+
+.inner-layout{
+  padding: 2rem 1.5rem;
+  width: 100%;
+}
+
+
